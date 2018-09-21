@@ -3,7 +3,7 @@ DIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 CONTAINER_NAME = pygotham2018_graphmining
 IMAGE_NAME = pygotham2018_graphmining
 IMAGE_TAG = 0.1
-TARGET_DIR=/pygotham2018_graphmining
+TARGET_DIR=/home/jovyan/work
 PORT = 8888
 
 ########################################################################################################
