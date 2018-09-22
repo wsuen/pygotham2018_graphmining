@@ -1,6 +1,6 @@
 ## Large Scale Graph Mining with Spark: What I learned from mapping >15 million sitess
 
-###PyGotham 2018 talk
+### PyGotham 2018 talk
 
 As the web grows ever larger and more content-rich, graph analysis may be one of the most powerful tools for unlocking insights within the mythical big data. That’s totally not fluff, because WIRED wrote about it (https://www.wired.com/insights/2014/03/graph-theory-key-understanding-big-data/).
 
@@ -12,6 +12,7 @@ We’ll talk about:
 * How Spark GraphFrames work under the hood.
 * How to find clusters of interest in your graph.
 * Tips that may help you in your journey (hint: you’re only as good as your data structure).
+
 And much more! 
 
 For more details, see my Medium post.
@@ -54,6 +55,11 @@ __Running the notebook__
 2. Run `make build` to create your Docker image. This may take a while.
 3. Run `make run_notebook_volume`. This starts a Docker container with a volume containing the notebooks and sample dataset
 4. Go to `127.0.0.0:8888` to see the notebook server. You may need to enter authentication token, which will be somewhere in your terminal output.
+5. Open `work/notebooks/Graphframes_demo`.
 
 ___About the sample dataset___
-I've also included a sample webgraph dataset that I created from the Common Crawl dataset. 
+I've also included a sample dataset that I created from the Common Crawl September 2017 dataset. The data, stored in a parquet fiule under `notebooks/data/outlinks_pq`, has the following format:
+
+```angular2html
+
+```

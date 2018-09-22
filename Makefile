@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 DIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 CONTAINER_NAME = pygotham2018_graphmining
 IMAGE_NAME = pygotham2018_graphmining
@@ -25,13 +26,6 @@ test_python:
 
 get_logs:
 	docker logs -f ${CONTAINER_NAME}
-
-run_notebook:
-	docker container run --rm \
-						 --name ${CONTAINER_NAME} \
-						 -p ${PORT}:${PORT} \
-						 --mount type=bind,source="${DIR}",target=${TARGET_DIR} \
-						 ${IMAGE_NAME}:${IMAGE_TAG}
 
 run_notebook_volume:
 	docker container run --rm \
