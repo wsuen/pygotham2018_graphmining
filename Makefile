@@ -33,3 +33,10 @@ run_notebook:
 						 --mount type=bind,source="${DIR}",target=${TARGET_DIR} \
 						 ${IMAGE_NAME}:${IMAGE_TAG}
 
+run_notebook_volume:
+	docker container run --rm \
+						 --name ${CONTAINER_NAME} \
+						 -p ${PORT}:${PORT} \
+						 -v ${DIR}:${TARGET_DIR} \
+						 ${IMAGE_NAME}:${IMAGE_TAG}
+
