@@ -55,6 +55,8 @@ Leskovec, Jure, Anand Rajaraman, and Jeffrey David Ullman. _Mining of massive d
 
 Mottin, Davide and and Emmanuel Müller. "Graph Exploration: Let me Show what is Relevant in your Graph" KDD’18. London. 19 August 2018. Lecture.
 
+Page, Lawrence, et al. "The pagerank citation ranking: Bringing order to the web." (1998): 68.
+
 Raghavan, Usha Nandini, Réka Albert, and Soundar Kumara. "Near linear time algorithm to detect community structures in large-scale networks." _Physical review_ E 76.3 (2007): 036106.
 
 Zachary karate club network dataset -- KONECT, April 2017.
