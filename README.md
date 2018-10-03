@@ -1,10 +1,8 @@
-## Large Scale Graph Mining with Spark: What I learned from mapping >15 million sites
+# Large Scale Graph Mining with Spark
 
-PyGotham 2018 talk.
+[PyGotham 2018 talk.](https://2018.pygotham.org/talks/graph-analysis-with-spark-mapping-15-million-common-crawl-websites-and-staying-sane-through-it-all/)
 
-For more details, see my Medium post.
-
-### Getting started
+## Getting started
 
 This repo includes Dockerfile for running a Jupyter notebook with pyspark. 
 
@@ -31,7 +29,9 @@ I also included a small sample dataset that I created from the Common Crawl Sept
  
  Hopefully this will jumpstart your exploration of web graphs, LPA, PageRank, and other cool features!
 
-### References
+## References
+
+Adamic, Lada A., and Natalie Glance. "The political blogosphere and the 2004 US election: divided they blog." Proceedings of the 3rd international workshop on Link discovery. ACM, 2005.
 
 Common Crawl dataset (September 2017).
 
@@ -47,7 +47,7 @@ Raghavan, Usha Nandini, Réka Albert, and Soundar Kumara. "Near linear time algo
 
 Zachary karate club network dataset -- KONECT, April 2017.
 
-### Additional Resources
+## Additional Resources
 
 ___Spark___
 
