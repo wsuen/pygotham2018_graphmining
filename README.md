@@ -1,6 +1,7 @@
 # Large Scale Graph Mining with Spark
 
 [PyGotham 2018 talk.](https://2018.pygotham.org/talks/graph-analysis-with-spark-mapping-15-million-common-crawl-websites-and-staying-sane-through-it-all/)
+See also my [tutorial on Medium.](https://medium.com/@wsuen/large-scale-graph-mining-with-spark-750995050656)
 
 ## Getting started
 
@@ -39,7 +40,7 @@ Farine, Damien R., et al. "Both nearest neighbours and long-term affiliates pred
 
 Fortunato, Santo. "Community detection in graphs." Physics reports 486.3-5 (2010): 75-174.
 
-Garimella, Kiran, et al. "Polarization on Social Media" KDD’18. London. 20 August 2018. Lecture.
+Girvan, Michelle, and Mark EJ Newman. “Community structure in social and biological networks.” _Proceedings of the national academy of sciences_ 99.12 (2002): 7821–7826.
 
 Leskovec, Jure, Anand Rajaraman, and Jeffrey David Ullman. _Mining of massive datasets_. Cambridge University Press, 2014.
 
